@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "telegram-schudle-student"
+version = "0.1.0"
+description = ""
+authors = ["Ilia Kaziamov <kaziamov@outlook.com>"]
+readme = "README.md"
+packages = [{include = "schudule_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiogram = "^2.25.1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
