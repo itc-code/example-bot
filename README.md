@@ -1,2 +1,1 @@
-# okpon
-okpon okpon
+# Example Bot
